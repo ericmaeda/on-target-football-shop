@@ -115,5 +115,5 @@ GitHub.sublime-settings
 .history
 
 .env*
-*.sqlite3
+.sqlite3*
 env/
