@@ -4,7 +4,7 @@
 <h4>Link Deployment : https://erico-putra-ontargetfootballshop.pbp.cs.ui.ac.id/</h4>
 <br>
 
-<h2></h2>
+<h2>Tugas 2</h2>
 <ul>
   <li>
     <ol>
