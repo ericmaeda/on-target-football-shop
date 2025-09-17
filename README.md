@@ -3,6 +3,8 @@
 <br>
 <h4>Link Deployment : https://erico-putra-ontargetfootballshop.pbp.cs.ui.ac.id/</h4>
 <br>
+
+<h2></h2>
 <ul>
   <li>
     <ol>
@@ -76,6 +78,55 @@
   <li>
     Seluruh staf dosen dan asisten dosen menurut saya sudah cukup melakukan pekerjaan dengan cukup baik! Terima kasih para asisten dosen dan tim dosen sekalian!
   </li>
+
+<br>
+<h2>Tugas 3</h2>
+<ul>
+  <li>
+    Dalam implementasi sebuah platform, kita memerlukan data delivery untuk membuat platform tersebut menjadi lebih interaktif dan dinamis. Hal tersebut karena data delivery menyajikan mekanisme untuk memastikan data dapat berpindah dari suatu komponen ke komponen lainnya dengan cepat, aman, dan konsisten.
   </li>
-    
-  </li>>
+  <li>
+    JSON dapat dikatakan lebih populer dibandingkan XML karena JSON dapat dengan mudah digunakan dalam JavaScript tanpa harus melakukan parsing yang rumit. Dalam pengembangan perangkat lunak, JavaScript sangat umum digunakan untuk mengolah data dalam suatu platform.
+  </li>
+  <li>
+    Method is_valid() dalam suatu proyek Django merupakan hal yang penting, karena method tersebut bertugas untuk mengecek apakah semua field - field yang telah dimasukkan oleh user sudah memenuhi syarat yang telah dicantumkan pada models.py. Jika telah memenuhi syarat, maka Django akan menerima request POST kita. Sebaliknya, jika tidak memenuhi syarat, maka Django akan mendeteksi hal tersebut sebagai kesalahan input  dan kemudian akan memberikan error message.
+  </li>
+  <li>
+    Pengadaan CSRF Token merupakan hal yang sangat penting bagi keamanan perangkat lunak yang kita bangun. Ketika kita mengakses perangkat lunak berbasis Django, maka Django akan membuat suatu token unik per sesi yang disisipkan dalam setiap form POST. Jika cocok, maka request akan dianggap valid. Jika tidak cocok, maka terjadi error 403 (Forbidden). CSRF Token sangat penting terutama untuk menghindari CSRF attack.
+  </li>
+  <li>
+    <ol>
+      <li>
+        Pertama, saya membuat sebuah file baru pada directory /main yakni forms.py. File python ini berfungsi untuk mengatur form input data dan mendeklarasikan field - field yang akan dijadikan input nantinya.
+      </li>
+      <li>
+        Kemudian, saya menambahkan beberapa template untuk tampilan yang lebih dinamis ketika kita menambahkan product, atau melihat detail dari product yang kita tambahkan. Dalam direktori /main/templates, saya menambahkan create_product.html sebagai tampilan ketika kita ingin menambahkan product, dan product_detail.html ketika kita ingin melihat detail product yang telah kita tambahkan.
+      </li>
+      <li>
+        Kemudian, pada views.py, saya membuat sebuah fungsi create_product() yang memiliki parameter request. Fungsi ini bertugas untuk menambahkan produk yang telah diinputkan oleh user, dan mengecek validitas input yang diberikan oleh user. Apabila input sesuai dengan syarat yang diberikan pada models.py, maka request POST akan disetujui. Apabila input tidak sesuai dengan syarat yang diberikan pada models.py, maka request POST akan ditolak.
+      </li>
+      <li>
+        Kemudian, pada views.py, saya membuat sebuah fungsi yang bernama show_product(). Fungsi ini berisi seluruh product yang telah dimasukkan, dan nantinya akan diiterasikan pada template yang telah dibuat supaya user dapat melihat product apa saja yang telah ditambahkan.
+      </li>
+      <li>
+        Kemudian, saya membuat beberapa fungsi seperti show_xml_by_id(), show_json_by_id() sebagai fungsi yang akan memberikan output data product yang telah ditambahkan masing-masing dalam bentuk format XML dan JSON.
+      </li>
+    </ol>
+  </li>
+  <li>
+    Asdos semua sudah keren!
+  </li>
+  <li>
+    Berikut ini saya lampirkan foto hasil akses URL pada Postman : 
+    <ol>
+      <li>
+        JSON
+        <img width="1380" height="922" alt="image" src="https://github.com/user-attachments/assets/0d0b1b33-7751-41ad-922b-c8228dda1caa" />
+      </li>
+      <li>
+        XML
+        <img width="1385" height="958" alt="image" src="https://github.com/user-attachments/assets/e73bb1be-ca27-47f6-88e1-6def8c5d17cb" />
+      </li>
+    </ol>
+  </li>
+</ul>
