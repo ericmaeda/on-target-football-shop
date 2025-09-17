@@ -32,6 +32,10 @@ PRODUCTION = os.getenv('PRODUCTION', 'False').lower() == 'true'
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
+CSRF_TRUSTED_ORIGINS = [
+    "https://erico-putra-ontargetfootballshop.pbp.cs.ui.ac.id"
+]
+
 ALLOWED_HOSTS = ["localhost", "127.0.0.1","erico-putra-ontargetfootballshop.pbp.cs.ui.ac.id"]
 
 
@@ -62,7 +66,7 @@ ROOT_URLCONF = 'on_target.urls'
 TEMPLATES = [
     {
         'BACKEND': 'django.template.backends.django.DjangoTemplates',
-        'DIRS': [],
+        'DIRS': [BASE_DIR / 'templates'],
         'APP_DIRS': True,
         'OPTIONS': {
             'context_processors': [
