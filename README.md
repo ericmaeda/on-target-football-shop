@@ -130,3 +130,46 @@
     </ol>
   </li>
 </ul>
+
+<br>
+<h2>Tugas 5</h2>
+<ul>
+  <li>Urutan CSS Selector mulai dari hierarki paling tinggi adalah :</li>
+  <ol>
+    <li>
+      !important akan mengalahkan semua prioritas. Akan tetapi, penggunaannya haruslah secara bijak.
+    </li>
+    <li>
+      Inline-style. Karena kode CSS dengan penulisan inline-style langsung ditulis didalam file HTML, sehingga ia mendapat prioritas paling utama.
+    </li>
+    <li>
+      External CSS :  Jika tidak terdapat kode CSS inline pada file HTML, maka akan digunakan kode yang terdapat pada external CSS (jika ada juga). Pada kode external CSS tersebut, ID selector menjadi prioritas utama, diikuti dengan class, attribute, element, pseudo-element.
+    </li>
+    <li>
+      Responsive design menjadi sangat penting di era saat ini karena pada era saat ini, ada sangat amat beragam jenis ukuran layar daripada device yang dimiliki oleh para user. Dengan membuat responsive design, maka website akan bisa menyesuaikan dengan ukuran layar yang dimiliki oleh para user, sehingga akan meningkatkan pengalaman user.
+    </li>
+  </ol>
+  
+  <li>
+      Margin adalah memberikan space sebesar nilai tertentu DILUAR elemen pembungkusnya. 
+  </li>
+  <li>
+      Padding adalah memberikan space sebesar nilai tertentu DIDALAM elemen pembungkusnya.
+  </li>
+  <li>
+      Border adalah garis tepi yang bentuknya mengikuti bentuk elemen pembungkus.
+  </li>
+  <li>
+    <ul>
+      <li>
+        Flexbox adalah design yang terfokus pada mengatur desain dari sisi satu dimensi saja, baik itu secara vertikal (column) dan horizontal (row)
+      </li>
+      <li>
+        Gridbox adalah design yang terfokus pada pengaturan desain dari sisi dua dimensi, sehingga kita bisa mengatur dari sisi baris maupun kolom sekaligus.
+      </li>
+    </ul>
+  </li>
+  <li>
+    Proses pengerjaan yang saya lakukan mengikuti apa yang terdapat pada tutorial 4.
+  </li>
+</ul>
