@@ -1,5 +1,6 @@
 import uuid
 from django.db import models
+from django.contrib.auth.models import User
 
 # Create your models here.
 class Product(models.Model) :
@@ -24,6 +25,8 @@ class Product(models.Model) :
         ('seabook', 'Seabook')
     ]
 
+    user = models.ForeignKey(User, on_delete=models.CASCADE, null=True)
+
     product_id = models.UUIDField(primary_key=True, default=uuid.uuid4, editable=False)
     name = models.CharField(max_length=50)
     price = models.IntegerField()
@@ -34,4 +37,9 @@ class Product(models.Model) :
     numeric_size = models.IntegerField()
     alphabetic_size = models.CharField(max_length=10)
     quantity = models.IntegerField()
-    is_featured = models.BooleanField()
+    is_featured = models.BooleanField() 
+
+class Employee(models.Model) :
+    name = models.CharField(max_length=255)
+    age = models.IntegerField()
+    persona = models.TextField()
